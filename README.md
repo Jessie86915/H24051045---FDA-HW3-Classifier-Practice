@@ -27,6 +27,6 @@
 | Neural Network | hidden_units = 10 , activation = 'sigmoid', l2 = 0.001, learning_rate = 0.01, epochs = 50, batch_size = 32 | 81.75 %      |
 
 ### 代改善項目
-    1. 模型參數調整（應用Cross-Validaiton）
-    2. 應用時間資料（將日期轉換做為預測變數）
+    1. 模型參數調整（ 應用 Cross-Validaiton ）
+    2. 應用時間資料（ 將日期轉換後放入做為預測變數 ）
     3. 利用時間序列相關分析，比較結果與原因
