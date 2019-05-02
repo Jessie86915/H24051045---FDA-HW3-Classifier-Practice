@@ -13,9 +13,9 @@
     7. 切割資料：將資料分割成 train_X, train_y, test_X, test_y
 
 ### 結果分析
-| Model               | Accuracy     |
-| ------------------- | ------------:|
-| SVC                 | 82.14 %      |
-| SVR                 | 80.95 %      |
-| Logistic Regression | 81.75 %      |
-| Neural Network      | 81.75 %      |
+| Model               | Parameter                                  | Accuracy     |
+| ------------------- | ------------------------------------------ | ------------:|
+| SVC                 | C = 0.01, kernal = "rbf"                   | 82.14 %      |
+| SVR                 | C = 0.1, gamma = 0.01, kernel = "rbf"      | 80.95 %      |
+| Logistic Regression |                                            | 81.75 %      |
+| Neural Network      | hidden_units = 10 , activation = 'sigmoid', l2 = 0.001, learning_rate = 0.01, epochs = 50, batch_size = 32 | 81.75 %      |
