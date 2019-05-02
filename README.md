@@ -13,7 +13,7 @@
     7. 切割資料：將資料分割成 train_X, train_y, test_X, test_y
 
 ### 結果分析
-| Model               | Parameter     | Accuracy     |
+| Model                 | Parameter     | Accuracy     |
 |:-------------------:|:-------------:|:------------:|
 | SVC | C = 0.01, kernal = "rbf"| 82.14 % |
 | SVR | C = 0.1, gamma = 0.01, kernel = "rbf"| 80.95 % |
