@@ -13,6 +13,9 @@
     7. 切割資料：將資料分割成 train_X, train_y, test_X, test_y
 
 ### 結果分析
-| Model        | Accuracy     |
-| ------------ | ------------:|
-|   SVC        | 82.14 %      |
+| Model               | Accuracy     |
+| ------------------- | ------------:|
+| SVC                 | 82.14 %      |
+| SVR                 | 80.95 %      |
+| Logistic Regression | 81.75 %      |
+| Neural Network      | 81.75 %      |
