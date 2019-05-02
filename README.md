@@ -3,6 +3,12 @@
 ### 資料類型
     股票相關資料（時序資料）
 
+### 預測項目
+    Close Price （與前一天比較的）漲跌
+
+### 預測變數
+    Open Price、High Price、Low Price （與前一天比較的）漲跌
+
 ### 資料預處理
     1. 將 Close Price （與前一天比較的）漲跌，存成新的 Column，做為分析項
     2. 切割資料：將 02-Jan-2009 ~ 29-Dec-2017 的資料設定為 Training_Data，將 02-Jan-2018 ~ 31-Dec-2018 的資料設定為 Testing_Data
