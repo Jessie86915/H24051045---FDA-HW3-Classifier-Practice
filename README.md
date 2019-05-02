@@ -4,7 +4,7 @@
     股票相關資料（時序資料）
 
 ### 資料預處理
-    1. 將 Close Price （與前一天比較的）漲跌，存成新的 Column
+    1. 將 Close Price （與前一天比較的）漲跌，存成新的 Column，做為分析項
     2. 切割資料：將 02-Jan-2009 ~ 29-Dec-2017 的資料設定為 Training_Data，將 02-Jan-2018 ~ 31-Dec-2018 的資料設定為 Testing_Data
     3. 資料視覺化：繪製散布圖與熱圖，做為選擇變數的依據
     4. 新增潛在變數：將 Open Price、High Price、Low Price （與前一天比較的）漲跌，存成新的 Column
@@ -13,4 +13,6 @@
     7. 切割資料：將資料分割成 train_X, train_y, test_X, test_y
 
 ### 結果分析
-    
+    | Model        | Accuracy     |
+    | ------------ | ------------:|
+    | SVC          | 82.14 %      |
